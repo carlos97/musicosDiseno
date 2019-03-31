@@ -3244,7 +3244,8 @@
 								"$ref": "AAAAAAFp0ScLZ1oEU64="
 							},
 							"name": "ListaInstrumentos nombre",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3253,7 +3254,8 @@
 								"$ref": "AAAAAAFp0ScLZ1oEU64="
 							},
 							"name": "Random rand",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3263,7 +3265,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ScLZ1oEU64="
 							},
-							"name": "nombre"
+							"name": "Instrumento"
 						},
 						{
 							"_type": "UMLOperation",
@@ -3309,7 +3311,8 @@
 								"$ref": "AAAAAAFp0SdBSFouWKQ="
 							},
 							"name": "Instrumento instrumento",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3318,7 +3321,8 @@
 								"$ref": "AAAAAAFp0SdBSFouWKQ="
 							},
 							"name": "Random rand",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3368,7 +3372,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFp0bVLrlrqEpI="
 									},
-									"name": "Instrumento in"
+									"name": "Instrumento in",
+									"type": ""
 								}
 							]
 						}
@@ -3460,24 +3465,6 @@
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAFp0c1VCGZ6DMQ=",
-							"_parent": {
-								"$ref": "AAAAAAFp0coKVmUGFk8="
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFp0c1VCGZ87I8=",
-								"_parent": {
-									"$ref": "AAAAAAFp0c1VCGZ6DMQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAFp0cYHKGPfvqg="
-								},
-								"aggregation": "composite"
-							}
-						},
-						{
-							"_type": "UMLAssociation",
 							"_id": "AAAAAAFp0c3NA2dIiRo=",
 							"_parent": {
 								"$ref": "AAAAAAFp0coKVmUGFk8="
@@ -3515,7 +3502,8 @@
 								"$ref": "AAAAAAFp0coKVmUGFk8="
 							},
 							"name": "Musico musicos[20]",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -3700,7 +3688,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "guitarra"
+							"name": "guitarra",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3708,7 +3697,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "flauta"
+							"name": "flauta",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3716,7 +3706,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "violin"
+							"name": "violin",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3724,7 +3715,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "bateria"
+							"name": "bateria",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3732,7 +3724,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "saxofon"
+							"name": "saxofon",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3740,7 +3733,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "bajo"
+							"name": "bajo",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3748,7 +3742,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFp0ewQY3B8bH4="
 							},
-							"name": "oboe"
+							"name": "oboe",
+							"type": ""
 						}
 					]
 				}
